@@ -4,6 +4,10 @@
 WordKing is a vocabulary learning tool designed for efficient word memorization. It is suitable for English learners, exam preparation, and anyone who needs to build vocabulary over time. By combining scientific memory techniques with flexible learning modes, WordKing helps users master words in a more structured and effective way.
 
 ---
+## Dowdload
+### Android: https://play.google.com/store/apps/details?id=cn.movingshop.wordking.word_front
+### iOS: https://apps.apple.com/us/app/wordking-language-learning/id6742090263 
+---
 
 ## 🚀 Core Features
 
