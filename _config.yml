@@ -1,0 +1,20 @@
+title: WordKing
+description: WordKing vocabulary learning app documentation
+markdown: kramdown
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+
+optional_front_matter:
+  remove_originals: true
+
+readme_index:
+  enabled: true
+  remove_originals: true
+
+relative_links:
+  enabled: true
+  collections: true

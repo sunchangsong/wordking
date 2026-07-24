@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WordKing Documentation</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --ink: #172033;
+      --muted: #657086;
+      --line: #dfe4ed;
+      --accent: #1d7f74;
+      --accent-strong: #13665d;
+      --soft: #e7f4f1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    a {
+      color: var(--accent-strong);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 24px;
+      align-items: end;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .downloads {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #ffffff;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(220px, 1fr);
+      gap: 16px;
+      margin: 28px 0 22px;
+    }
+
+    label {
+      display: grid;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--ink);
+      font: inherit;
+      padding: 0 12px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 24px 0 14px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .item {
+      display: grid;
+      gap: 8px;
+      min-height: 112px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .item:hover {
+      border-color: #a8c9c3;
+      box-shadow: 0 8px 24px rgba(23, 32, 51, 0.08);
+      text-decoration: none;
+    }
+
+    .item strong {
+      color: var(--ink);
+      font-size: 18px;
+    }
+
+    .item span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .overview {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 14px 0 26px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 34px;
+      padding: 0 10px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--accent-strong);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        width: min(100% - 24px, 1120px);
+        padding-top: 28px;
+      }
+
+      .intro,
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .downloads {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="intro">
+      <div>
+        <h1>WordKing</h1>
+        <p class="lead">Vocabulary learning app documentation, organized by learning language and page language.</p>
+      </div>
+      <div class="downloads" aria-label="Download links">
+        <a class="button primary" href="https://play.google.com/store/apps/details?id=cn.movingshop.wordking.word_front">Android</a>
+        <a class="button" href="https://apps.apple.com/us/app/wordking-language-learning/id6742090263">iOS</a>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <label>
+        Search language
+        <input id="search" type="search" placeholder="English, Chinese, Japanese...">
+      </label>
+      <label>
+        Page language
+        <select id="target"></select>
+      </label>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>Language Overview</h2>
+        <span class="count" id="overview-count"></span>
+      </div>
+      <div class="overview" id="overview"></div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>Documentation Pages</h2>
+        <span class="count" id="page-count"></span>
+      </div>
+      <div class="grid" id="pages"></div>
+    </section>
+  </main>
+
+  <script>
+    const sourceLanguages = [
+      "Afrikaans", "Arabic", "Bengali", "Bulgarian", "Chinese", "Czech",
+      "Danish", "Dutch", "English", "Filipino", "Finnish", "French",
+      "German", "Greek", "Hindi", "Hungarian", "Indonesian", "Italian",
+      "Japanese", "Kazakh", "Korean", "Latin", "Latvian", "Lithuanian",
+      "Malay", "Norwegian", "Persian", "Polish", "Portugues_Brazil",
+      "Portuguese", "Romanian", "Russian", "Serbian", "Spanish", "Swahili",
+      "Swedish", "Thai", "Turkish", "Uzbek", "Vietnamese"
+    ];
+
+    const pageLanguages = [
+      "Arabic", "Bengali", "Chinese", "English", "French", "German", "Hindi",
+      "Italian", "Japanese", "Javanese", "Korean", "Marathi", "Portuguese",
+      "Punjabi", "Russian", "Spanish", "Tamil", "Telugu",
+      "Traditional_Chinese", "Turkish", "Urdu", "Vietnamese"
+    ];
+
+    const docDate = "20260502";
+    const searchInput = document.getElementById("search");
+    const targetSelect = document.getElementById("target");
+    const overview = document.getElementById("overview");
+    const pages = document.getElementById("pages");
+    const overviewCount = document.getElementById("overview-count");
+    const pageCount = document.getElementById("page-count");
+
+    function labelName(name) {
+      return name.replace(/_/g, " ");
+    }
+
+    function renderTargetOptions() {
+      targetSelect.innerHTML = [
+        '<option value="English">English</option>',
+        ...pageLanguages
+          .filter((language) => language !== "English")
+          .map((language) => `<option value="${language}">${labelName(language)}</option>`)
+      ].join("");
+    }
+
+    function render() {
+      const query = searchInput.value.trim().toLowerCase();
+      const target = targetSelect.value;
+      const filteredSources = sourceLanguages.filter((language) =>
+        labelName(language).toLowerCase().includes(query)
+      );
+
+      overview.innerHTML = filteredSources.map((language) =>
+        `<a class="chip" href="${language}/ReadMe.html">${labelName(language)}</a>`
+      ).join("");
+
+      pages.innerHTML = filteredSources.map((language) => {
+        const href = `${language}/${target}/${docDate}.html`;
+        return `
+          <a class="item" href="${href}">
+            <strong>${labelName(language)}</strong>
+            <span>${labelName(target)} page</span>
+          </a>
+        `;
+      }).join("");
+
+      overviewCount.textContent = `${filteredSources.length} languages`;
+      pageCount.textContent = `${filteredSources.length} pages`;
+    }
+
+    renderTargetOptions();
+    render();
+    searchInput.addEventListener("input", render);
+    targetSelect.addEventListener("change", render);
+  </script>
+</body>
+</html>
