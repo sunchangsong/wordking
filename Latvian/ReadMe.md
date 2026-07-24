@@ -40,3 +40,12 @@ WordKing ir vārdu krājuma apguves rīks, kas paredzēts efektīvai vārdu iega
 
 ## 🎉 Noslēgums
 WordKing ir vairāk nekā vārdu krājuma lietotne; tas ir pilnvērtīgs risinājums efektīvai vārdu apguvei. Gudra plānošana un dati padara vārdu krājuma veidošanu vieglāku, efektīvāku un ilgtspējīgu.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

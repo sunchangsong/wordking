@@ -40,3 +40,12 @@ WordKing to narzędzie do nauki słownictwa zaprojektowane do skutecznego zapami
 
 ## 🎉 Podsumowanie
 WordKing to więcej niż aplikacja do słówek; to pełne rozwiązanie do efektywnej nauki. Inteligentny harmonogram i dane sprawiają, że rozwijanie słownictwa jest łatwiejsze, skuteczniejsze i trwałe.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

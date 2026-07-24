@@ -40,3 +40,12 @@ A WordKing szókincsfejlesztő eszköz, amely a szavak hatékony memorizálásá
 
 ## 🎉 Összegzés
 A WordKing több mint szótanuló alkalmazás; átfogó megoldás a hatékony szóelsajátításhoz. Az okos ütemezés és az adatok egyszerűbbé, hatékonyabbá és tartósabbá teszik a szókincsbővítést.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

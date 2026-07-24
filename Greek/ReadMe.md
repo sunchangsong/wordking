@@ -40,3 +40,12 @@
 
 ## 🎉 Συμπέρασμα
 Το WordKing είναι μια ολοκληρωμένη λύση για αποτελεσματική εκμάθηση λέξεων. Ο έξυπνος προγραμματισμός και τα δεδομένα κάνουν την ανάπτυξη λεξιλογίου πιο εύκολη, αποδοτική και βιώσιμη.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

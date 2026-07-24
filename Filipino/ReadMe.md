@@ -40,3 +40,12 @@ Ang WordKing ay kasangkapan sa pag-aaral ng bokabularyo na idinisenyo para sa ma
 
 ## 🎉 Konklusyon
 Higit pa sa vocabulary app ang WordKing; ito ay kumpletong solusyon para sa epektibong pag-aaral ng salita. Pinapadali at pinapahusay ng smart scheduling at data insights ang pagbuo ng bokabularyo.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

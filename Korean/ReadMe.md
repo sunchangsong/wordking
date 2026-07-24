@@ -41,3 +41,12 @@ WordKing은 단어를 효율적으로 암기하도록 설계된 어휘 학습 �
 
 ## 🎉 결론
 WordKing은 단순한 어휘 앱이 아니라 효과적인 단어 학습을 위한 종합 솔루션입니다. 스마트 일정과 데이터 인사이트로 어휘 확장을 더 효율적이고 쉽고 지속 가능하게 만듭니다.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

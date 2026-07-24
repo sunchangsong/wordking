@@ -41,3 +41,12 @@ WordKing 是一款为高效记忆单词而设计的词汇学习工具。它适�
 
 ## 🎉 总结
 WordKing 不只是一款背单词应用，它是一套有效学习词汇的完整方案。借助智能复习计划和数据洞察，词汇积累会变得更高效、更轻松，也更可持续。
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

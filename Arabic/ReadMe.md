@@ -41,3 +41,12 @@ WordKing أداة لتعلم المفردات صممت لحفظ الكلمات �
 
 ## 🎉 الخاتمة
 WordKing أكثر من تطبيق مفردات؛ إنه حل متكامل لتعلم الكلمات بفعالية. بفضل الجدولة الذكية ورؤى البيانات يصبح بناء المفردات أكثر كفاءة وسهولة واستدامة.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

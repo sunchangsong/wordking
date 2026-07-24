@@ -41,3 +41,12 @@ WordKing је алат за учење вокабулара направљен �
 
 ## 🎉 Закључак
 WordKing је више од апликације за речи; то је целовито решење за ефикасно учење. Паметно планирање и подаци чине изградњу речника лакшом, ефикаснијом и одрживом.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

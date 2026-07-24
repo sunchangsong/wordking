@@ -40,3 +40,12 @@ WordKing instrumentum est ad vocabula discenda, ad verba efficaciter memoriae ma
 
 ## 🎉 Conclusio
 WordKing plus est quam applicatio vocabulorum; est solutio integra ad verba efficaciter discenda. Ordinatio callida et indicia data faciunt ut aedificatio vocabularii facilior, efficacior et diuturna sit.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

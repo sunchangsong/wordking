@@ -40,3 +40,12 @@ WordKing er et verktøy for ordforrådslæring laget for effektiv memorering av 
 
 ## 🎉 Konklusjon
 WordKing er mer enn en vokabularapp; det er en helhetlig løsning for effektiv ordlæring. Smart planlegging og datainnsikt gjør ordforrådsbygging enklere, mer effektiv og bærekraftig.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

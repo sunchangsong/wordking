@@ -41,3 +41,12 @@ WordKing, kelimeleri verimli biçimde ezberlemek için tasarlanmış bir kelime 
 
 ## 🎉 Sonuç
 WordKing yalnızca bir kelime uygulaması değil, etkili kelime öğrenimi için kapsamlı bir çözümdür. Akıllı planlama ve veri içgörüleri kelime geliştirmeyi daha verimli, kolay ve sürdürülebilir hale getirir.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

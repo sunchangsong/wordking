@@ -41,3 +41,12 @@ WordKing сөздерді тиімді жаттауға арналған сөз�
 
 ## 🎉 Қорытынды
 WordKing жай ғана сөздік қосымша емес; ол сөздерді тиімді үйренуге арналған толық шешім. Ақылды жоспарлау мен дерек талдауы сөз қорын арттыруды жеңіл, тиімді және тұрақты етеді.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

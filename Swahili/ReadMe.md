@@ -40,3 +40,12 @@ WordKing ni zana ya kujifunza msamiati iliyoundwa kusaidia kukariri maneno kwa u
 
 ## 🎉 Hitimisho
 WordKing ni zaidi ya programu ya msamiati; ni suluhisho kamili la kujifunza maneno kwa ufanisi. Ratiba mahiri na maarifa ya data hufanya kujenga msamiati kuwe rahisi, fanisi na endelevu.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

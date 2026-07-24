@@ -40,3 +40,12 @@ WordKing yra žodyno mokymosi įrankis, skirtas efektyviai įsiminti žodžius. 
 
 ## 🎉 Išvada
 WordKing yra daugiau nei žodyno programa; tai išsamus sprendimas veiksmingam žodžių mokymuisi. Išmanus planavimas ir duomenų įžvalgos žodyno plėtrą daro lengvesnę, efektyvesnę ir tvarią.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

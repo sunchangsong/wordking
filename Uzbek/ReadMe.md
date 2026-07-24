@@ -41,3 +41,12 @@ WordKing so‘zlarni samarali yodlash uchun yaratilgan lug‘at o‘rganish vosi
 
 ## 🎉 Xulosa
 WordKing oddiy lug‘at ilovasi emas; u so‘zlarni samarali o‘rganish uchun to‘liq yechimdir. Aqlli rejalashtirish va ma’lumotlar tahlili lug‘atni oshirishni osonroq, samaraliroq va davomli qiladi.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

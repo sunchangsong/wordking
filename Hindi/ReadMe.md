@@ -41,3 +41,12 @@ WordKing एक शब्दावली सीखने वाला उपक�
 
 ## 🎉 निष्कर्ष
 WordKing केवल शब्दावली ऐप नहीं है; यह प्रभावी शब्द सीखने का पूरा समाधान है। स्मार्ट शेड्यूलिंग और डेटा अंतर्दृष्टि शब्द-संग्रह निर्माण को अधिक कुशल, आसान और टिकाऊ बनाते हैं।
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

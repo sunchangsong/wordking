@@ -40,3 +40,12 @@ WordKing ialah alat pembelajaran kosa kata yang direka untuk menghafal perkataan
 
 ## 🎉 Kesimpulan
 WordKing lebih daripada aplikasi kosa kata; ia penyelesaian menyeluruh untuk pembelajaran perkataan yang berkesan. Penjadualan pintar dan cerapan data menjadikan pembinaan kosa kata lebih cekap, mudah dan mampan.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

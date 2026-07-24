@@ -40,3 +40,12 @@ WordKing on sanaston oppimistyökalu, joka on suunniteltu sanojen tehokkaaseen m
 
 ## 🎉 Yhteenveto
 WordKing on enemmän kuin sanastosovellus; se on kokonaisratkaisu tehokkaaseen sanojen oppimiseen. Älykäs aikataulutus ja data tekevät sanaston kartuttamisesta helpompaa, tehokkaampaa ja kestävää.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

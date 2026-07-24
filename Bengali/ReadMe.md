@@ -41,3 +41,12 @@ WordKing হলো দক্ষভাবে শব্দ মুখস্থ ক�
 
 ## 🎉 উপসংহার
 WordKing শুধু একটি vocabulary app নয়; এটি কার্যকর শব্দ শেখার পূর্ণাঙ্গ সমাধান। স্মার্ট শিডিউলিং ও ডেটা বিশ্লেষণ শব্দভাণ্ডার গড়াকে আরও দক্ষ, সহজ ও টেকসই করে।
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

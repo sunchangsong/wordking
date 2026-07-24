@@ -40,3 +40,12 @@ WordKing is ’n woordeskat-leerinstrument wat ontwerp is vir doeltreffende woor
 
 ## 🎉 Gevolgtrekking
 WordKing is meer as ’n woordeskat-app; dit is ’n volledige oplossing vir effektiewe woordleer. Slim skedulering en data-insigte maak woordeskatbou makliker, doeltreffender en volhoubaar.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

@@ -41,3 +41,12 @@ WordKing は、単語を効率よく覚えるために設計された語彙学�
 
 ## 🎉 まとめ
 WordKing は単なる語彙アプリではなく、効果的な単語学習のための総合的なソリューションです。スマートなスケジュールとデータ分析により、語彙づくりをより効率的で簡単、継続しやすいものにします。
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

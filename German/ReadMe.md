@@ -41,3 +41,12 @@ WordKing ist ein Vokabellernwerkzeug für effizientes Einprägen von Wörtern. E
 
 ## 🎉 Fazit
 WordKing ist mehr als eine Vokabel-App; es ist eine umfassende Lösung für wirksames Wortlernen. Intelligente Planung und Dateneinblicke machen den Wortschatzaufbau effizienter, einfacher und nachhaltiger.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

@@ -41,3 +41,12 @@ WordKing è uno strumento per imparare il vocabolario, pensato per memorizzare p
 
 ## 🎉 Conclusione
 WordKing è più di una semplice app di vocabolario: è una soluzione completa per imparare parole in modo efficace. Pianificazione intelligente e dati rendono la crescita del vocabolario più efficiente, semplice e sostenibile.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

@@ -41,3 +41,12 @@ WordKing là công cụ học từ vựng được thiết kế để ghi nhớ 
 
 ## 🎉 Kết luận
 WordKing không chỉ là một ứng dụng từ vựng; đây là giải pháp toàn diện để học từ hiệu quả. Lịch học thông minh và dữ liệu phân tích giúp xây dựng vốn từ dễ hơn, hiệu quả hơn và bền vững hơn.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

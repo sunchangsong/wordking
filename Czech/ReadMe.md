@@ -40,3 +40,12 @@ WordKing je nástroj pro učení slovní zásoby navržený pro efektivní zapam
 
 ## 🎉 Závěr
 WordKing je víc než aplikace na slovíčka; je to komplexní řešení pro efektivní učení slov. Chytré plánování a datové přehledy dělají budování slovní zásoby snazší, účinnější a udržitelné.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

@@ -40,3 +40,12 @@ WordKing เป็นเครื่องมือเรียนคำศั�
 
 ## 🎉 สรุป
 WordKing ไม่ใช่แค่แอปคำศัพท์ แต่เป็นทางออกครบถ้วนสำหรับการเรียนคำอย่างมีประสิทธิภาพ ตารางทบทวนอัจฉริยะและข้อมูลเชิงลึกช่วยให้การเพิ่มคลังคำศัพท์ง่ายขึ้น มีประสิทธิภาพขึ้น และต่อเนื่องได้จริง.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

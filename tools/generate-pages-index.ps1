@@ -25,6 +25,20 @@ function RelativeCss([int] $depth) {
     return (("../" * $depth) + "assets/site.css")
 }
 
+function GoogleTag() {
+    return @"
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BS3LL1VXYN');
+  </script>
+"@
+}
+
 function Write-Utf8File([string] $path, [string] $content) {
     $utf8NoBom = New-Object System.Text.UTF8Encoding $false
     [System.IO.File]::WriteAllText($path, $content, $utf8NoBom)
@@ -41,6 +55,7 @@ function PageShell([string] $title, [string] $body, [int] $depth) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$encodedTitle</title>
   <link rel="stylesheet" href="$css">
+$(GoogleTag)
 </head>
 <body>
   <main class="page">

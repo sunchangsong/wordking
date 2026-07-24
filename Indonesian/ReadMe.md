@@ -41,3 +41,12 @@ WordKing adalah alat belajar kosakata untuk menghafal kata dengan efisien. Cocok
 
 ## 🎉 Kesimpulan
 WordKing lebih dari aplikasi kosakata; ini adalah solusi lengkap untuk belajar kata secara efektif. Penjadwalan cerdas dan wawasan data membuat pembangunan kosakata lebih efisien, mudah, dan berkelanjutan.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

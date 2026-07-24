@@ -41,3 +41,12 @@ WordKing é uma ferramenta de aprendizagem de vocabulário criada para memorizar
 
 ## 🎉 Conclusão
 WordKing é mais que um app de vocabulário; é uma solução completa para aprender palavras com eficácia. O agendamento inteligente e os dados tornam a construção de vocabulário mais eficiente, fácil e sustentável.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

@@ -41,3 +41,12 @@ WordKing е инструмент за изучаване на речник, съ
 
 ## 🎉 Заключение
 WordKing е повече от приложение за думи; това е цялостно решение за ефективно учене. Интелигентното планиране и анализите правят изграждането на речник по-лесно, по-ефективно и устойчиво.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

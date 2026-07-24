@@ -22,6 +22,21 @@ function Write-Utf8File([string] $path, [string] $content) {
     [System.IO.File]::WriteAllText($path, $content, $utf8NoBom)
 }
 
+function GoogleTag() {
+    return @"
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>
+"@
+}
+
 function Article([string] $target, [string] $language) {
     switch ($target) {
         "Chinese" { return @"
@@ -1449,7 +1464,7 @@ foreach ($source in $sourceDirs) {
         }
 
         $language = LearnName $source.Name $target.Name
-        Write-Utf8File $path (Article $target.Name $language)
+        Write-Utf8File $path ((Article $target.Name $language).TrimEnd() + (GoogleTag) + "`n")
         $created++
     }
 }

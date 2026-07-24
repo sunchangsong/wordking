@@ -40,3 +40,12 @@ WordKing este un instrument de învățare a vocabularului conceput pentru memor
 
 ## 🎉 Concluzie
 WordKing este mai mult decât o aplicație de vocabular; este o soluție completă pentru învățarea eficientă a cuvintelor. Planificarea inteligentă și datele fac vocabularul mai ușor, eficient și sustenabil.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

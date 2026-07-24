@@ -40,3 +40,12 @@ WordKing is een hulpmiddel voor woordenschat leren, gemaakt om woorden efficiën
 
 ## 🎉 Conclusie
 WordKing is meer dan een woordenschat-app; het is een complete oplossing voor effectief woorden leren. Slimme planning en data-inzichten maken woordenschat opbouwen efficiënter, eenvoudiger en duurzamer.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>

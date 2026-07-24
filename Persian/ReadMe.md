@@ -41,3 +41,12 @@ WordKing ابزاری برای یادگیری واژگان است که برای 
 
 ## 🎉 جمع‌بندی
 WordKing فراتر از یک برنامه واژگان است؛ یک راهکار کامل برای یادگیری مؤثر کلمات است. زمان‌بندی هوشمند و تحلیل داده‌ها ساختن واژگان را آسان‌تر، کارآمدتر و پایدارتر می‌کند.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS3LL1VXYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BS3LL1VXYN');
+</script>
