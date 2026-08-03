@@ -75,6 +75,18 @@ function FormatDocTitle([System.IO.FileInfo] $file) {
     return LabelName $stem
 }
 
+function ReadMarkdownTitle([System.IO.FileInfo] $file) {
+    $heading = Get-Content -LiteralPath $file.FullName -Encoding UTF8 |
+        Where-Object { $_ -match "^\s*#\s+(.+?)\s*$" } |
+        Select-Object -First 1
+
+    if ($null -eq $heading) {
+        return FormatDocTitle $file
+    }
+
+    return ($heading -replace "^\s*#\s+", "").Trim()
+}
+
 function SiteUrlFor([string[]] $segments) {
     $base = $SiteUrl.TrimEnd("/")
     if ($segments.Count -eq 0) {
@@ -176,11 +188,12 @@ $($targetItems -join "`n")
         $docs = @(Get-ChildItem -LiteralPath $target.FullName -File -Filter "*.md" | Sort-Object Name)
         $docItems = foreach ($doc in $docs) {
             $docTitle = HtmlEncode (FormatDocTitle $doc)
+            $docDescription = HtmlEncode (ReadMarkdownTitle $doc)
             $href = [System.IO.Path]::GetFileNameWithoutExtension($doc.Name) + ".html"
             @"
         <a class="tile" href="$href">
           <strong>$docTitle</strong>
-          <span>Introduction document</span>
+          <span>$docDescription</span>
         </a>
 "@
         }
